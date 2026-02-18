@@ -237,6 +237,7 @@ export const customImage: SocialImageOptions["imageStructure"] = (
 
 The following example includes a customized social image with a custom background and formatted date:
 
+{% raw %}
 ```typescript title="custom-og.tsx"
 export const og: SocialImageOptions["Component"] = (
   cfg: GlobalConfiguration,
@@ -256,6 +257,7 @@ export const og: SocialImageOptions["Component"] = (
     minutes: Math.ceil(minutes),
   })
 ```
+{% endraw %}
 
   const Li = [created, reading]
 
