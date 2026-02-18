@@ -253,7 +253,7 @@ export const og: SocialImageOptions["Component"] = (
   const { minutes, text: _timeTaken, words: _words } = readingTime(fileData.text!)
   reading = i18n(cfg.locale).components.contentMeta.readingTime({
     minutes: Math.ceil(minutes),
-  }})
+  }/\}\}/})
 
   const Li = [created, reading]
 
