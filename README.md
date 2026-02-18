@@ -10,4 +10,4 @@ Quartz is a set of tools that helps tetstsetu publish your [digital garden](http
 
 ## Sponsors
 
-testeste
+![(/docs/images/test.png)]
